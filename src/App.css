@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* 内边距   */
+    /*padding: 10px;*/
+}
+
+.left-container {
+    display: block;
+    width: 49.99vw;
+    padding: 20px;
+    /*height: 100vh;*/
+}
+
+.input-and-button-container {
+    display: flex;
+    /* 上下居中对齐 */
+    align-items: center;
+
+}
+
+.history-container {
+    flex-direction: column;
+    /* 上下居中对齐 */
+    align-items: center;
+    /* 左右居中对齐 */
+    justify-content: center;
+    width: 100%;
+    max-height: calc(100vh - 100px); /* 视口高度减去到顶部的距离 */
+    /* 上下滚动条 */
+    overflow-y: auto;
+
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.renderer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49.99vw;
+}
+
+.renderer {
+    border: 1px solid #ccc;
+    /*width: 400px;*/
+    max-width: 40vw;
+    max-height: 80vh;
+    /*height: 400px;*/
+}
