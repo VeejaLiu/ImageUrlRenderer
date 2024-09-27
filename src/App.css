@@ -21,6 +21,7 @@
 }
 
 .history-container {
+    padding: 5px;
     flex-direction: column;
     /* 上下居中对齐 */
     align-items: center;
